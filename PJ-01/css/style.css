@@ -1,0 +1,37 @@
+body {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    background:#E1D4C9; 
+}
+
+.column-main {
+    display: flex;
+    width: 1360px;
+    padding: 40px 0px 40px 0px;
+    flex-direction: column;
+    align-items: start;
+    gap: 40px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-self: stretch;
+    gap: 60px;
+}
+
+.head-img {
+    display: inline-block;
+    border-radius: 50%;
+    overflow: hidden;
+    width: 150px;
+    height: 150px;
+}
+
+.head-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
